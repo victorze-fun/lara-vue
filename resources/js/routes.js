@@ -12,11 +12,6 @@ export const routes = [
     component: Home
   },
   {
-    name: 'contact',
-    path: '/contact',
-    component: Contact
-  },
-  {
     name: 'showBlogs',
     path: '/blogs',
     component: Show
@@ -30,5 +25,10 @@ export const routes = [
     name: 'editBlog',
     path: '/edit/:id',
     component: Edit
+  },
+  {
+    name: 'contact',
+    path: '/contact',
+    component: Contact
   },
 ]
